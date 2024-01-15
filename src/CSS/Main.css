@@ -1,0 +1,112 @@
+.main {
+  /* background-color: pink; */
+  min-height: 100%;
+}
+.products {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.product {
+  position: relative;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 28rem;
+  width: 18rem;
+  background-color: white;
+  padding: 20px 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.productImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  margin: 20px 5px;
+  cursor: pointer;
+}
+.productImage:hover {
+  scale: 1.05;
+  transition: all 1s ease-in-out;
+}
+
+.productTitle {
+  text-align: center;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+
+  color: rgb(125, 125, 125);
+}
+.productDesc {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  padding: 5px 10px;
+  color: rgb(140, 140, 140);
+}
+.productPrice {
+  margin-top: 5px;
+  color: rgb(25, 255, 25);
+  font-size: 18px;
+}
+.productPriceDisc {
+  color: rgb(154, 156, 154);
+  font-size: 12px;
+}
+.priceAndButton {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 10px;
+
+  bottom: 0px;
+  width: 100%;
+  padding: 10px 5px;
+}
+.price {
+    margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.buttonPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-right: 10px;
+}
+.button {
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px 9px;
+  font-size: 15px;
+
+  color: rgb(120, 120, 120);
+}
+.add{
+      border: 1px solid rgba(78, 255, 24, 0.578);
+}
+.remove{
+  border: 1px solid rgba(227, 65, 65, 0.578);
+}
+.remove:hover{
+background-color: rgba(227, 65, 65, 0.578);
+  border: none;
+  color: white;
+}
+.add:hover {
+  background-color: rgba(78, 255, 24, 0.578);
+  border: none;
+  color: white;
+}

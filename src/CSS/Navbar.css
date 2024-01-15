@@ -1,0 +1,53 @@
+.navbar {
+  height: 5rem;
+
+  display: flex;
+
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0,0,0,.01);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.innernavbar {
+  display: flex;
+  justify-content: space-between;
+  width: 82%;
+
+  margin: 0 auto;
+}
+.icon {
+  height: 4rem;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.right {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  align-items: center;
+ 
+  font-size: 25px;
+  padding: 0rem 2rem;
+}
+.count {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  background-color: rgb(255, 86, 86);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.cart {
+  position: relative;
+}
+.cartIcon {
+  font-size: 25px;
+  background: none;
+  z-index: 9;
+}
