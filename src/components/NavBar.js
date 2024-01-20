@@ -2,8 +2,10 @@ import React from "react";
 import { FaCartShopping } from "react-icons/fa6";
 import "../CSS/Navbar.css";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const NavBar = () => {
+  const {cart} = useSelector((state)=>state);
   return (
     <div className="navbar">
       <div className="innernavbar">
@@ -22,7 +24,8 @@ const NavBar = () => {
           </Link>
           <Link to="/cart">
             <div className="cart">
-              <div className="count">10</div>
+              {cart && cart.length > 0 ? <div className="count">{cart.length}</div> : ""}
+
               <FaCartShopping className="cartIcon" />
             </div>
           </Link>

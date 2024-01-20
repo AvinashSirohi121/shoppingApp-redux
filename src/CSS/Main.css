@@ -1,6 +1,10 @@
 .main {
   /* background-color: pink; */
   min-height: 100%;
+  margin-top: 5rem;
+   box-shadow: inset 0px 81px 32px -3px rgba(0,0,0,0.1);
+
+  
 }
 .products {
   width: 80%;
@@ -13,6 +17,7 @@
 }
 
 .product {
+  z-index: 5;
   position: relative;
   margin-top: 10px;
   border-radius: 10px;
@@ -73,7 +78,7 @@
   padding: 10px 5px;
 }
 .price {
-    margin-left: 10px;
+  margin-left: 10px;
   display: flex;
   flex-direction: column;
   width: 30%;
@@ -94,16 +99,19 @@
 
   color: rgb(120, 120, 120);
 }
-.add{
-      border: 1px solid rgba(78, 255, 24, 0.578);
+.add {
+  border: 1px solid rgba(78, 255, 24, 0.578);
 }
-.remove{
-  border: 1px solid rgba(227, 65, 65, 0.578);
-}
-.remove:hover{
-background-color: rgba(227, 65, 65, 0.578);
+.remove {
   border: none;
+  background-color: rgba(227, 65, 65, 0.578);
   color: white;
+}
+.remove:hover {
+  border: 1px solid rgba(227, 65, 65, 0.578);
+  background-color: white;
+  color: rgba(227, 65, 65, 0.578);
+  font-weight: 500;
 }
 .add:hover {
   background-color: rgba(78, 255, 24, 0.578);

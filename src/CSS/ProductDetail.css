@@ -16,7 +16,7 @@
 }
 .productDetailImage:hover {
   transition: all 1s ease-in-out;
-  transform: translateY(20px) translateX(-10px) scale(1.2);
+  transform: translateY(20px) translateX(20px) scale(1.2);
 }
 .rightProductDetail {
   width: 70%;
@@ -49,17 +49,61 @@
   color: rgb(30, 29, 29);
   margin-top: 3rem;
 }
-.productPrice {
+.productDetailPrice {
   font-size: 1.8rem;
   font-weight: 600;
   color: rgb(1, 170, 1);
 }
-.productPriceDisc {
+.productDetailPriceDisc {
   font-size: 1.2rem;
   font-weight: 500;
 }
-.productPrices {
+.productDetailPrices {
   display: flex;
   align-items: baseline;
   gap: 1rem;
+}
+.productRating {
+  display: flex;
+  gap: 20px;
+}
+.productRatingSpan {
+  position: relative;
+  display: flex;
+  gap: 5px;
+}
+.ratingStar {
+  position: absolute;
+  top: 3px;
+  left: 20px;
+  color: gold;
+}
+.productDetailButton {
+  margin-top: 20px;
+}
+.rightProductDetailBottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.rightProductDetailBottomLeft {
+}
+.rightProductDetailBottomRight {
+  margin-right: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productDetailButton {
+  width: 10rem;
+  background-color: rgb(1, 170, 1);
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  transition: all .5s ease-in-out;
+}
+.productDetailButton:hover {
+  background-color: rgb(3, 240, 3);
+  color: white;
 }
