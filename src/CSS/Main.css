@@ -2,15 +2,14 @@
   /* background-color: pink; */
   min-height: 100%;
   margin-top: 5rem;
-   box-shadow: inset 0px 81px 32px -3px rgba(0,0,0,0.1);
-
-  
+  box-shadow: inset 0px 81px 32px -3px rgba(0, 0, 0, 0.1);
 }
 .products {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+ 
   gap: 1rem;
   margin: 0 auto;
   padding: 20px 0px;
@@ -117,4 +116,12 @@
   background-color: rgba(78, 255, 24, 0.578);
   border: none;
   color: white;
+}
+
+.spinner {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 4rem;
 }

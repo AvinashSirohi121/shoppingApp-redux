@@ -1,7 +1,7 @@
 .cartPage {
-  height: 100%;
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 5rem;
+  box-shadow: inset 0px 81px 32px -3px rgba(0, 0, 0, 0.1);
 }
 .cartPageinner {
   margin: 0 auto;
@@ -11,12 +11,13 @@
   justify-content: space-between;
 }
 .shoppingCart {
+  margin-top: 5rem;
   width: 70%;
-
   border-right: 2px solid gray;
   padding-right: 3rem;
 }
 .summary {
+  margin-top: 5rem;
   width: 30%;
 }
 .empty {
@@ -45,7 +46,7 @@
   background-color: rgb(3, 167, 3);
 }
 
-.emptyCartMessage{
-    font-weight: 600;
-    font-size: 4rem;
+.emptyCartMessage {
+  font-weight: 600;
+  font-size: 4rem;
 }
